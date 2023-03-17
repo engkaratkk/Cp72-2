@@ -1,0 +1,71 @@
+{
+ "id": "Blobdir",
+ "assembly": {
+  "file": "assembly.fasta",
+  "scaffold-count": 295,
+  "span": 21358924
+ },
+ "fields": [
+  {
+   "id": "identifiers",
+   "type": "identifier"
+  },
+  {
+   "id": "gc",
+   "preload": true,
+   "scale": "scaleLinear",
+   "name": "GC",
+   "datatype": "float",
+   "range": [
+    0.3846,
+    0.7364
+   ],
+   "type": "variable"
+  },
+  {
+   "preload": true,
+   "scale": "scaleLog",
+   "id": "length",
+   "name": "Length",
+   "clamp": false,
+   "datatype": "integer",
+   "range": [
+    504,
+    748751
+   ],
+   "type": "variable"
+  },
+  {
+   "scale": "scaleLinear",
+   "id": "ncount",
+   "name": "N count",
+   "datatype": "integer",
+   "range": [
+    0,
+    54
+   ],
+   "type": "variable"
+  }
+ ],
+ "links": {},
+ "name": "Blobdir",
+ "plot": {
+  "x": "gc",
+  "z": "length"
+ },
+ "record_type": "record",
+ "records": 295,
+ "taxon": {
+  "taxid": 3031063,
+  "superkingdom": "Eukaryota",
+  "kingdom": "Fungi",
+  "phylum": "Basidiomycota",
+  "class": "Microbotryomycetes",
+  "order": "Sporidiobolales",
+  "family": "Sporidiobolaceae",
+  "genus": "Rhodotorula",
+  "species": "Rhodotorula sp. CP72-2"
+ },
+ "version": 1,
+ "revision": 0
+}
